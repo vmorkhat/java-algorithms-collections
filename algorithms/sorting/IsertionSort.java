@@ -9,6 +9,7 @@ Space Complexity: O(1)
  */
 import java.util.Arrays;
 import java.util.stream.IntStream;
+
 public class IsertionSort<T extends Comparable<T>> {
 
     private final T[] items;

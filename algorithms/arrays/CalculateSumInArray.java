@@ -6,6 +6,7 @@ public class CalculateSumInArray {
 		var sum = 0;
 
 		for (var number : numbers) {
+			var currentElement = numbers[number];
 			sum += currentElement;
 		}
 		return sum;

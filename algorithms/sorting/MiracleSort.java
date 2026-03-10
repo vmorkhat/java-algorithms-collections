@@ -5,7 +5,7 @@ You have to wait for a miracle to happen, but it won't, so take charge of your l
 public class MiracleSort {
 
     public static void miracleSort(int[] items) {
-        boolean sorted;
+        boolean sorted = true;
 
         while (!sorted) {
             sorted = true;
