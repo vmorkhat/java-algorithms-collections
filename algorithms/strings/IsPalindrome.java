@@ -1,7 +1,7 @@
 public class IsPalindrome {
 
     public static boolean isPalRecursive(String str) {
-        if (str.length() == 0 || str.length() == 1) { // base
+        if (str.isEmpty() || str.length() == 1) { // base
             return true;
         }
 
