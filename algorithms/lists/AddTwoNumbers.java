@@ -8,17 +8,19 @@ public class AddTwoNumbers {
 
     public static class Solution {
         public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-            ListNode head = new ListNode(0); // result list
+            ListNode head = new ListNode(0); // result node
             ListNode tail = head; // pointer keeping track of the last node in the result list
-            int carry = 0; // store carry value during addition
+            int carry = 0; // store overflow value in case the sum is bigger than 9, i.e. carry = 15 / 10 = 1
 
             while (l1 != null || l2 != null) {
+                // grab current digit from l1 and l2
+                // use 0 if the list is exhausted
                 int digit1 = (l1 != null) ? l1.val : 0;
                 int digit2 = (l2 != null) ? l2.val : 0;
 
                 int sum = digit1 + digit2 + carry;
                 carry = sum / 10;
-                int lastDigit = sum % 10;
+                int lastDigit = sum % 10; // the digit to store
                 ListNode node = new ListNode(lastDigit);
                 tail.next = node;
                 tail = tail.next; // move the tail to the last node

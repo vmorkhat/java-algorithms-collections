@@ -9,7 +9,7 @@ Time complexity: O(n²) in worst case, O(n) usually as each character is added a
 public class LongestSubstring {
     private static int longestSubstring(String input) {
         int length = input.length();
-        // maxLength - length of a longest substring
+        // maxLength - length of the longest substring
         // left - left boundary of a sliding window
         int maxLength = 0, left = 0;
         Set<Character> charSet = new HashSet<>();
