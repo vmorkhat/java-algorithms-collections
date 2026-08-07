@@ -15,8 +15,8 @@ public class ConvertToExcelTitle {
         int test1 = 1;
         int test2 = 28;
         int test3 = 701;
-        System.out.println(test1); // A
-        System.out.println(test2); // AB
-        System.out.println(test3); // ZY
+        System.out.println(convertToExcelTitle(test1)); // A
+        System.out.println(convertToExcelTitle(test2)); // AB
+        System.out.println(convertToExcelTitle(test3)); // ZY
     }
 }
