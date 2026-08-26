@@ -17,7 +17,7 @@ public class LongestSubstring {
         for (int right = 0; right < length; right++) {
             if (!charSet.contains(input.charAt(right))) {
                 charSet.add(input.charAt(right)); // add new char if unique
-                maxLength = Math.max(maxLength, right - left + 1); // increase maxLength
+                maxLength = Math.max(maxLength, right - left + 1); // increase maxLength, right and left are indexes, adding 1 returns the amount of elements between them
             } else {
                 while (charSet.contains(input.charAt(right))) {
                     charSet.remove(input.charAt(left)); // keep removing the leftmost character from the set

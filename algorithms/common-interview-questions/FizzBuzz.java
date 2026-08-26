@@ -1,4 +1,4 @@
-/* ternaty operator: (condition) ? (exp on true) : (exp on false) */
+/* ternary operator: (condition) ? (exp on true) : (exp on false) */
 public class FizzBuzz {
 	public static String fizzBuzz(int begin, int end) { 
 		for (var i = begin; i <= end; i++) {
@@ -11,6 +11,7 @@ public class FizzBuzz {
 		}
 	return "done!";
 	}
+
 	public static void main(String[] args) {
 		System.out.println(fizzBuzz(1, 10)); // should be 1 2 Fizz 4 Buzz Fizz 7 8 Fizz Buzz done!
 	}

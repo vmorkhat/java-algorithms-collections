@@ -11,6 +11,7 @@ public class IsPalindrome {
         return false;
     }
 
+    // if case sensitivity need to be handled, use Character.toLowerCase()
     public static boolean isPalIterative(String str) {
         int a = 0;
         int b = str.length() - 1;
