@@ -3,7 +3,7 @@
 Custom collection of data for technical interview for junior java developer role. 
 
 ## Algorithms
-[SEE WHOLE LIST HERE](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/ALGORITHMS.md)
+[SEE WHOLE LIST HERE](https://github.com/vmorkhat/java-algorithms-collections/blob/main/algorithms/ALGORITHMS.md)
 
 # Big O notation
 * **Time Complexity**: estimation of the number of operations or steps an algorithm needs to run as a function of the input size.
@@ -46,14 +46,14 @@ Custom collection of data for technical interview for junior java developer role
 ## Java collections classes
 * **Collection**
   * **Set**
-    * [HashSet](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/collections/sets/SETS.md#hashset)
-    * [LinkedHashSet](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/collections/sets/SETS.md#linkedhashset)
+    * [HashSet](https://github.com/vmorkhat/java-algorithms-collections/blob/main/collections/sets/SETS.md#hashset)
+    * [LinkedHashSet](https://github.com/vmorkhat/java-algorithms-collections/blob/main/collections/sets/SETS.md#linkedhashset)
       * **SortedSet**
       * **NavigableSet**
-        * [TreeSet](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/collections/sets/SETS.md#treeset)
+        * [TreeSet](https://github.com/vmorkhat/java-algorithms-collections/blob/main/collections/sets/SETS.md#treeset)
   * **List**
-    * [ArrayList](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/collections/lists/LISTS.md)
-    * [LinkedList](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/collections/lists/LISTS.md#linkedlist)
+    * [ArrayList](https://github.com/vmorkhat/java-algorithms-collections/blob/main/collections/lists/LISTS.md)
+    * [LinkedList](https://github.com/vmorkhat/java-algorithms-collections/blob/main/collections/lists/LISTS.md#linkedlist)
     * **Vector**
       * Stack
   * **Queue**
@@ -61,12 +61,12 @@ Custom collection of data for technical interview for junior java developer role
       * **Deque**
         * ArrayDequeue
 * **Map**
-  * [HashTable](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/collections/maps/MAPS.md#hashtable)
-  * [HashMap](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/collections/maps/MAPS.md#hashmap)
-  * [LinkedHashMap](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/collections/maps/MAPS.md#linkedhashmap)
+  * [HashTable](https://github.com/vmorkhat/java-algorithms-collections/blob/main/collections/maps/MAPS.md#hashtable)
+  * [HashMap](https://github.com/vmorkhat/java-algorithms-collections/blob/main/collections/maps/MAPS.md#hashmap)
+  * [LinkedHashMap](https://github.com/vmorkhat/java-algorithms-collections/blob/main/collections/maps/MAPS.md#linkedhashmap)
     * **SortedMap**
     * **NavigableMap**
-      * [TreeMap](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/collections/maps/MAPS.md#treemap)
+      * [TreeMap](https://github.com/vmorkhat/java-algorithms-collections/blob/main/collections/maps/MAPS.md#treemap)
 
 
 ### Comparing Collection Types:
